@@ -1,0 +1,14 @@
+1.Write a Java program that performs the following operations using two pre-defined integers a and b:
+
+Calculates and prints the sum, difference, product, quotient, and remainder of these two integers.
+
+
+2.Create a Java program that compares two pre-defined integers x and y and prints:
+
+3.Whether x is greater than, less than, or equal to y.
+Whether x is not equal to y
+
+
+4.Write a program that checks if a pre-defined integer num is within the range of 10 to 20 (inclusive). Use logical operators to determine if num is between 10 and 20 (inclusive) and print the result.
+
+5.Create a Java program that uses the conditional (ternary) operator to determine whether a pre-defined integer number is even or odd. Print the result accordingly
