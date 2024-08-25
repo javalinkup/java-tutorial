@@ -1,0 +1,14 @@
+Operators in java:
+------------ -------
+It is a java symobol and it is used to performform some operations
+1.UnaRY Operators  : prefix:  ++a,   postfix a++   a = 10 a++ : 11 
+2.Airthemtic Operators:   multiplication ,addition, *, /, %, +, -
+3.Relational Operators: ==, !=,  > , <, >= , <=
+4.Logical Operators:    &&,||
+5.Bitewise operators: &:,   |:,   & ^ |
+6.Conditional (ternary operator):   ?: ,  shortend if else   ,    Syntax:  condition ? experssion1: expression2
+6.Assignemnet operators: = , +=, -=
+
+
+ 
+ 
