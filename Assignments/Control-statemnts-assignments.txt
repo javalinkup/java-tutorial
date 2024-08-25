@@ -1,0 +1,37 @@
+
+
+If else statments:
+Problem: Write a program that takes an integer input from the user and prints whether the number is even or odd.
+
+Example Input: 4
+Example Output: 4 is even
+Example Input: 7
+Example Output: 7 is odd
+Problem: Write a program that takes a student's grade (0-100) and prints the corresponding letter grade based on the following scale:
+
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+Example Input: 85
+
+Example Output: B
+
+Example Input: 55
+
+Example Output: F
+
+Write a program that categorizes a person's age into different groups:
+
+If the age is less than 13, print "Child."
+If the age is between 13 and 19, print "Teenager."
+If the age is between 20 and 64, print "Adult."
+If the age is 65 or older, print "Senior."
+
+
+Loops:
+1.Write a Java program that prints all even numbers from 1 to 10.
+2.Write a Java program that prints each element in an array of integers using a for-each loop.
+3.Write a Java program that prints the numbers from 1 to 5 using a while loop.
+4.Write a Java program that takes an integer representing a month (1-12) and prints the name of the month using a switch statement.
