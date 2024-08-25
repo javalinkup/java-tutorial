@@ -1,0 +1,54 @@
+25/08:
+----------
+Control statements:
+1.Statements:
+ if,  if else ,switch, if else ladder
+ if(a>10){
+ 
+ }
+ else{
+ 
+ }
+ 
+ if(){
+ 
+ }else if(){
+ 
+ }
+ else{
+ 
+ }
+ 
+ switch(expression){
+ case1:
+ break;
+ ...
+ default:
+  
+ }
+ 
+
+2. Loop statments:
+   while loop,for , for each loop,  do while loop
+   while loop iteration is  part of the program infinitly
+   
+   do-while loop :  Loop sttament at least once and further execution depends on the given boolean condition
+   if the number of iteration is not fxed atthat time we can do while.
+   do {
+   // code
+   }
+   while(true);
+   while(conidtion){ 
+   // exicute the code
+   }
+   
+    for loop : if the number of iteration is fixed we can use for loop
+	for(statement1 ; condition; increment){
+	}
+	
+	for ecah loop: which is used to exclusilvely to loop thorugh elements in an array
+	for(type variablename: arrayname){
+	
+	}
+	
+  
