@@ -1,0 +1,56 @@
+26-Aug-2024:
+Java keywords:
+
+abstract
+boolean : true or false
+break : 
+byte: -127 to 128
+case: 
+catch: used to catch the exception
+char: hold the charecters
+class:to decalre a class
+continue: for continue the loop
+default:it will be used in the swicth case to specifiy the default block of code.
+do: it used for ontrol statment with while loop
+double:used to hold the value of 64 bit.
+else:It can be used with if altenrative of if conidtion
+enum:  it is a java keyword it used fpr fixed set of constants , construcors private or default.
+extends: For deriving from another class
+final:It can holds a variable it is used retsrict the user from updating the value.
+     variable , method, class
+finally: it will be exicuted always with try block.
+float:
+for:It is loop  used exicute the set of  functions repeatedly.
+if: conditiona based control statement
+implements :to implement and interface
+import: 
+package : 
+    java --> lang--> String, System
+	     --> util--> Arraylist,Map
+		 --> awt  -->Button
+instanceof : used to test whether the object is an instance of specfied class or implements and interface.
+int:
+interface
+long
+native
+new
+null
+package
+private
+protected
+public
+return
+short
+static
+strictfp
+super
+switch
+synchronized
+this
+throw
+throws
+transient
+try
+void
+volatile
+while
