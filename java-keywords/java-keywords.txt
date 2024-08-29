@@ -29,25 +29,38 @@ package :
 	     --> util--> Arraylist,Map
 		 --> awt  -->Button
 instanceof : used to test whether the object is an instance of specfied class or implements and interface.
-int:
-interface
-long
-native
-new
-null
-package
-private
-protected
-public
-return
-short
-static
-strictfp
-super
-switch
-synchronized
-this
-throw
+int: 32 bit size numbers can hold.
+interface:It can have only abstract methods.
+long: It will hold 64 biit size value
+native:  used specify a method 
+new: it is used to create an object
+null: it is reserved word for literal values to use across the class or methods to change it
+package:to declare java package that includeds the java classes
+      java.lang. System.class , String.class
+private: it is sued for methods, variables, constructors.
+protected: accessible with in the package not outside the package and  outside the package through inheritance
+public:Accessible for evrywhere
+return:   it used to exit the method 
+short :hold the values up to 2 byts (16 bits) -32768 to 32767
+static: declares at variables methods classes for memeory management
+strictfp: used to get the same result on every platform if we perform floating point variables.
+super:It is used to refer to parent class objects
+switch:
+synchronized:it used for multithread environment.
+         synchronization: to access of multiple threads to any shared resource.
+		                 one thread can access to shared resource.
+		 to prevent thread interference
+		 to prevent constitnacy problems
+		 
+		 synchronized method
+		 synchronized block
+		 sttaic synchronization.
+this:  used to refere curent class instance variable.
+       invoke current class method
+	   invoke(call) current class construcor
+	   passed as argiment in method
+	   
+throw: expciticlty to throw an exception , which should be thrown, to create customized exceptions.
 throws
 transient
 try
