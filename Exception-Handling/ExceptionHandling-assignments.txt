@@ -1,0 +1,7 @@
+1.Write a Java program that asks the user to input two integers and divides the first number by the second. Use Suitable exception handling it?
+2.Create a Java program that Handle multiple types of exceptions that might occur during input.
+3.Define a custom exception called NegativeNumberException that is thrown when a user enters a negative number. Write a program to handle this exception
+4.Write a Java program that demonstrates the use of nested try-catch blocks.
+5.Write a Java method that takes an integer as an argument and throws an exception if the integer is less than 0 or greater than 100.
+6.Write a program tp throw NullpointerException
+
