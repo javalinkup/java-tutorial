@@ -1,0 +1,94 @@
+
+throws: it is used to declare an exception , checked exceptions can be propagated with throws m1() throws Exception
+     Exception Handling : it is used to handle the human errors   flow of the application can be matinaed properly
+     1.Checked Exception :  those are coming at the time of compiletime 
+	                        compiler make sure whether the developer handle the exception or not.
+							 FileNotfoundException. 
+							 IoException
+							 Handling these exceptions: 1. using throws keyword throws IoExecption
+							      m1() throws IoExcption{
+								  }
+								  2.use try catch block
+								  
+								  
+							 
+	 2.Unchecked exception:  The compiler will not check thes eexceptions ,if one program throws an unchecked exception 
+                             if we did not handle or declare by the programer it would not give compiltime error
+                              also we can call as RuntimeExcpetion.							 
+                             	Airtmetic exception
+								NullpointerException.
+								
+								
+
+Strings:
+    1. By String literal.
+     // literal SCP //memory manamgment  JVM JRE
+   2. By new keyword.
+   String s2 = new String(" Sri Ram");
+   String s = "John Schena";
+    s = "Ronaldo";   // pointing to new object 
+	
+	// its a new value with diffrent address location  s1 ,  s2 
+    it is Immutable   means it final value we cant change the string value for make it better security and Serilazable
+   
+   // String a datatype as well it is class .
+   
+
+
+Exception Handling:
+---------------------
+It is used to handle the human errors or runtime errros  so that normal flow of exicution will mantianed
+properly.
+Exception: Exception is an ubnormal condition.
+ In java exception is an event that distrups the normal flow of the program.
+ 
+ Checked exceptions: It will come at compiltime for example IOException, FilenotFoundEception
+ Unchecked Exception : It will come at Runtime example AirthmaticException, NullpointerException
+ try, catch, finally,throws, throw , Bad coding logic errros 
+ try{
+ //
+ }catch(){
+ 
+ }finally{
+ 
+ }
+ 
+ Problem 1:  If The SuperClass doesn’t declare an exception
+ 
+In this problem, two cases that will arise are as follows:
+ 
+Case 0: If SuperClass doesn’t declare any exception and subclass doesn’t declare  exception
+ 
+	Ans : NA
+ 
+Case 1: If SuperClass doesn’t declare any exception and subclass declare checked exception
+ 
+	Ans : Not allowed to declare ,must handle with try and catch
+ 
+Case 2: If SuperClass doesn’t declare any exception and SubClass declare Unchecked exception
+ 
+    Ans :it is allowed or handled with try catch
+=================================================	
+Problem 2: If The SuperClass declares an exception
+ 
+Case 1: If SuperClass declares an exception and SubClass declares exceptions other than the child exception of the SuperClass declared Exception.
+ 
+   Ans :Not allowed to declare ,  we may handle with try catch
+
+Case 2: If SuperClass declares an exception and SubClass declares a child exception of the SuperClass declared Exception.
+ 
+	Ans :it is allowed or handled with try catch
+Case 3: If SuperClass declares an exception and SubClass declares without exception.
+ 
+	Ans: NA
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
