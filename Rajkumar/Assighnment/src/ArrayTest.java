@@ -45,11 +45,43 @@ public class ArrayTest {
         }
         System.out.println("even number is :"+even);
     }
+    static void numbersDivisibleBy10(){
+        int[] num = {10,34,50,60,56,87};
+        int rem;
+        for (int i =0;i< num.length;i++){
+            rem=num[i]%10;
+            if (rem==0){
+                System.out.println("Numbers divisible by 10 :"+num[i]);
+            }
+        }
+
+    }
+    static void evenElement() {
+        int rem;
+        int count=0;
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int i = 1; i < arr.length; i++) {
+            rem = arr[i] % 2;
+            if (rem == 0) {
+                System.out.println(arr[i]);
+                count++;
+
+            }
+            else
+                System.out.println();
+
+        }
+
+
+    }
+
     public static void main(String[] args){
         intArray();
         stringArray();
         sumOfArray();
         largestElement();
         evenArray();
+        evenElement();
+        numbersDivisibleBy10();
     }
 }
