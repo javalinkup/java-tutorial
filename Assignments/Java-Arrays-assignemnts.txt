@@ -1,0 +1,8 @@
+1.Create on int array and print the values.
+2.Create String array Print the values 
+3.Sum of Array Elements
+4. Find the Largest Element in an Array
+5.Print even numbers from array
+6.print numbers that devided by 10 from array
+7.Write a Java program to merge two arrays into a single array.
+8.Write a Java program to remove duplicate elements from an array
