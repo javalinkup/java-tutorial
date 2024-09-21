@@ -15,15 +15,19 @@ public class ArrayTest {
         }
     }
     static void sumOfArray(){
-        int i;
-        int[] j={1,4,8,9,3};
-        i=j[0]+j[1]+j[2]+j[3]+j[4];
-        System.out.println("sum is :"+i);
+        int sum=0;
+        int[] numbers={1,4,8,9,3};
+        for (int i =0;i< numbers.length;i++){
+            sum = numbers[i]+sum;
+
+        }
+        System.out.println("sum is :"+sum);
+
     }
     static void largestElement(){
-        int[] e = {45,87,23,98};
-        int max =e[0];
-        for (int i:e) {
+        int[] numbers = {45,87,23,98};
+        int max =numbers[0];
+        for (int i:numbers) {
             if (max<i){
                 max=i;
             }
@@ -34,10 +38,10 @@ public class ArrayTest {
 
     }
     static void evenArray(){
-        int[] i = {23,45,86,90,21};
+        int[] numbers = {23,45,86,90,21};
         int rem;
         int even =0;
-        for (int x:i) {
+        for (int x:numbers) {
             rem = x%2;
             if (rem!=1){
                 even=x;//doubt how can i put two numbers
@@ -58,30 +62,63 @@ public class ArrayTest {
     }
     static void evenElement() {
         int rem;
-        int count=0;
+
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int i = 1; i < arr.length; i++) {
             rem = arr[i] % 2;
             if (rem == 0) {
                 System.out.println(arr[i]);
-                count++;
 
             }
-            else
-                System.out.println();
+
 
         }
 
 
     }
+    static void oddNumbers(){
+        int[] num = {1,2,3,4,5,6,7,8,9,10};
+        int rem;
+        for(int i=0;i<num.length;i++){
+            rem=num[i]%2;
+            if(rem==1){
+                System.out.println("odd numbers :"+num[i]);
+            }
+
+            else
+                System.out.println();
+
+        }
+    }
+ static  void sumOfArrays()   {
+        int[] array1 = { 1, 2, 3 };
+        int[] array2 = { 4, 5, 6 };
+       // int[] array3 = new int[array1.length+array2.length];
+
+        int j=0;
+        int sum1=0;
+        int sum2=0;
+        int diff;
+     for(int i=0;i<array1.length;i++){
+         sum1= array1[i]+sum1;
+
+     }
+     for(int i =0;i<array2.length;i++){
+         sum2= array2[i]+sum2;
+     }
+
+        System.out.println(sum2-sum1);
+    }
 
     public static void main(String[] args){
-        intArray();
-        stringArray();
+      //  intArray();
+      //  stringArray();
         sumOfArray();
-        largestElement();
-        evenArray();
-        evenElement();
-        numbersDivisibleBy10();
+      //  largestElement();
+      //  evenArray();
+      //  evenElement();
+      //  numbersDivisibleBy10();
+      //  oddNumbers();
+        sumOfArrays();
     }
 }
