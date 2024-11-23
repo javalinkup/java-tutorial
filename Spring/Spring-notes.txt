@@ -1,0 +1,68 @@
+11/23/2024
+
+Spring FrameWork
+-------------------
+Spring is lightwaeight framework
+Modules :
+Spring core Application context, beanfactory ,
+Spring mvc  we can create APIs,
+Spring Security / usrname pass/ token (hhajjdjjd) Authentication Authorization
+Spring AOP/ aspected orinete program :Trsanactions
+Spring data: JDBC ORM
+
+Employee emp = new Employee();
+
+
+IOC (Inversion control) container : It will mantian bean life cycle : aand mantain the Depency injection
+
+
+1.Autowired
+
+ @Autowired
+ private B b;
+2.Contructor injection
+
+class A{
+
+private B b;
+public A(B b){
+this.b = b;
+}
+b.m1();
+
+
+
+3.Setter injection
+@Component
+class A{
+
+
+private B b;
+
+@Autowired
+public void setB(B b){
+this.b = b;
+}
+b.m1();
+
+}
+IOC container:
+-----------------
+Ways of creating IOC is 2
+1.ApplicationContext
+Extar benfit is Internaltiozation; 
+Eager loading
+ApplicationContext context = new AnnotationpplicationContext("app-context.xml")
+
+A a = context.getBean(A.class);
+a.m1();
+<beans
+<bean id =a class = "com.abc.A"/>
+/beans>
+
+2.BeanFactory
+Lazy loading
+NO support for internatiolzation 
+BeanFactory factory = new XMLBeanactory("app-context.xml");
+A a = (A)factory.getBean("a")
+
